@@ -1,24 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
+import { MuiDrawer } from './components/MuiDrawer';
+import { MuiLink } from './components/MuiLink';
+import { MuiNavbar } from './components/MuiNavbar';
+// import { MuiImagelist } from './components/MuiImagelist';
+// import { MuiAccordian } from './components/MuiAccordian';
+// import { MuiCard } from './components/MuiCard';
+// import MuiLayout from './components/MuiLayout';
+// import { MuiAutocomplete } from './components/MuiAutocomplete';
+// import { MuiRating } from './components/MuiRating';
+// import { MuiSelect } from './components/MuiSelect';
+// import { MuiTypography } from './components/MuiTypography';
+// import { MuiButton } from "./components/MuiButton";
+// import { MuiTextField } from './components/MuiTextField';
+// import { MuiRadioButton } from './components/MuiRadioButton';
+// import { MuiCheckBox } from "./components/MuiCheckBox";
+// import {MuiSwitch} from "./components/MuiSwitch"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <MuiTypography /> */}
+      {/* <MuiButton /> */}
+      {/* <MuiTextField/> */}
+      {/* <MuiSelect/> */}
+      {/* <MuiRadioButton/> */}
+      {/* <MuiCheckBox/> */}
+      {/* <MuiSwitch /> */}
+      {/* <MuiRating/> */}
+      {/* <MuiAutocomplete/> */}
+      {/* <MuiLayout/> */}
+      {/* <MuiCard/> */}
+      {/* <MuiAccordian/> */}
+      {/* <MuiImagelist/> */}
+      {/* <MuiNavbar/>
+      <MuiLink/>
+      <MuiBreadcrumbs/> */}
+      <MuiDrawer/>
     </div>
   );
 }
